@@ -44,7 +44,7 @@ public class ThirdTask {
                         hundreds = (x - thousands * 1000) / 100;
                         System.out.println("Разряд сотен числа " + x + " равен " + hundreds);
                     }
-
+                    else System.out.println("Число больше 9999");
                 }
             else System.out.println("Число не является трехзначным");
         }
