@@ -23,7 +23,7 @@ public class ThirdTask {
             System.out.println("Введено число " + x);
             if (x >= 100)
                 if (x<=999) {
-                    System.out.println("Число " + id + " является трехзначным");
+                    System.out.println("Число " + x + " является трехзначным");
                     hundreds = x/100;
                     tens = (x - hundreds * 100)/10;
                     //  6. Дано трехзначное число. Определить, является ли его число десятков четным числом.
@@ -48,6 +48,6 @@ public class ThirdTask {
                 }
             else System.out.println("Число не является трехзначным");
         }
-        else System.out.println("Это не число");
+        else System.out.println("Это не целое число");
     }
 }
