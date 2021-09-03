@@ -1,6 +1,5 @@
 package org.itstep;
 
-import javax.swing.*;
 import java.util.Scanner;
 
 public class ThirdTask {
@@ -27,15 +26,13 @@ public class ThirdTask {
                     System.out.println("Число " + id + " является трехзначным");
                     hundreds = x/100;
                     tens = (x - hundreds * 100)/10;
-                    units = (x - hundreds * 100 - tens * 10);
                     //  6. Дано трехзначное число. Определить, является ли его число десятков четным числом.
                     if (tens % 2 == 0)
                         System.out.println("Число десятков является четным числом");
                     else
                         System.out.println("Число десятков является нечетным числом");
                     // 12. Дано трехзначное число. Округлить его до сотен.
-                    if (tens >= 5)
-                        hundreds = ++hundreds;
+                    if (tens >= 5) ++hundreds;
                     result = hundreds * 100;
                     System.out.println("Число " + x + " округлено до сотен: " + result);
                 }

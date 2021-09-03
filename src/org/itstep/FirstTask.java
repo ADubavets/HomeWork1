@@ -14,7 +14,7 @@ public class FirstTask {
         // 5. Написать инструкцию вычисления среднего арифметического переменных x1 и x2.
         int x1 = 3;
         int x2 = 6;
-        x = (x1 + x2) / 0x2;
+        x = (x1 + x2) >> 1;
         System.out.println(x);
 
         // 7. Написать инструкцию, которая увеличивает значение переменной x на величину, находящуюся в переменной dx.
@@ -56,6 +56,6 @@ public class FirstTask {
         int current = 10;
         int resistance = 25;
         int voltage = current * resistance;
-        System.out.println("Падение напряжения на участке цепи равна " + voltage + " В");
+        System.out.println("Падение напряжения на участке цепи равно " + voltage + " В");
     }
 }
